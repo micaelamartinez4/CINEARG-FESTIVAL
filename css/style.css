@@ -1,0 +1,496 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-1: #936DF9;
+    --color-2: #FCCD00;
+    --color-3: #FE1544;
+    --color-4: #1380F8;
+    --color-5: #F7F7E8;
+}
+
+body {
+    background: black !important;
+    color: white !important;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.secciones {
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+
+#noticias, #sponsors {
+    margin-top: 150px !important;
+    margin-bottom: 150px !important;
+}
+
+.nav-link,
+.navbar-brand {
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+.nav-link {
+    font-size: 20px !important;
+}
+
+.logo {
+    width: 160px;
+    height: auto;
+}
+
+.navbar-toggler {
+    transition: border-color 0.5s ease;
+}
+
+.navbar-toggler:hover {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    width: 35px !important;
+}
+
+.inicio {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-inicio {
+    width: 90% !important;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+}
+
+.logo-banner {
+    text-align: center;
+}
+
+.sub-inicio {
+    text-align: center !important;
+    font-size: clamp(20px, 5vw, 45px);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.boton-inicio {
+    text-align: center !important;
+    background-color: var(--color-1) !important;
+    border-radius: 50px !important;
+    font-weight: 700 !important;
+    font-size: clamp(30px, 5vw, 50px);
+    color: #FAEBE0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    margin: 50px;
+    transition: 0.3s ease;
+}
+
+.boton-inicio:hover {
+    background-color: #6a4bb2 !important;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.iconos-inicio {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: clamp(40px, 20vw, 80px);
+    height: clamp(40px, 20vw, 80px);
+    background-color: var(--color-2);
+    color: var(--color-1);
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.iconos-inicio i {
+    font-size: clamp(40px, 6vw, 55px);
+}
+
+h2 {
+    font-weight: 700 !important;
+    font-size: clamp(40px, 5vw, 60px) !important;
+}
+
+.info-img {
+    background-color: var(--color-4);
+    border-radius: 5%;
+    border: 1px solid black;
+    margin-top: 80px;
+    padding: 10px;
+    box-shadow: -10px 10px 0px var(--color-3);
+}
+
+.info-img img {
+    border-radius: 5% !important;
+    border: 1px solid black !important;
+}
+
+.texto-info {
+    font-size: clamp(20px, 3vw, 45px);
+    margin-top: 80px;
+}
+
+.num-info {
+    font-weight: 700 !important;
+    font-size: clamp(30px, 3vw, 45px);
+}
+
+.color-universidades,
+.color-cortometrajes,
+.color-estudiantes {
+    border-radius: 50px;
+    width: fit-content;
+    height: auto;
+    padding: 0 15px;
+}
+
+.color-universidades {
+    background-color: var(--color-3);
+}
+
+.color-cortometrajes {
+    background-color: var(--color-1);
+
+}
+
+.color-estudiantes {
+    background-color: var(--color-4);
+}
+
+.num-texto {
+    font-size: clamp(25px, 3vw, 30px);
+}
+
+h5 {
+    font-size: clamp(2rem, 4vw, 6rem) !important;
+    font-weight: 700 !important;
+
+}
+
+h6 {
+    font-size: clamp(5rem, 6vw, 8rem) !important;
+    font-weight: 700 !important;
+    padding-left: 30px;
+}
+
+.actividades {
+    font-size: clamp(14px, 2vw, 25px) !important;
+    color: black;
+    font-weight: 500;
+    width: 520px;
+}
+
+.horario {
+    margin-bottom: 50px;
+    min-height: 120px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.mes-general {
+    color: black;
+    height: fit-content;
+    padding: 20px;
+    margin-left: 20px;
+    border: 2px solid black;
+    box-shadow: -5px 5px 0px var(--color-5);
+}
+
+.actividades-general {
+    height: fit-content;
+    width: 100%;
+    padding: 20px 20px 20px 10%;
+    border: 2px solid black;
+    box-shadow: -5px 5px 0px var(--color-5);
+}
+
+.dia-1 {
+    color: var(--color-3);
+}
+
+.dia-2 {
+    color: var(--color-2) !important;
+}
+
+.dia-3 {
+    color: var(--color-4) !important;
+}
+
+.dia-4 {
+    color: var(--color-1) !important;
+}
+
+.color-actividades-1 {
+    background-color: var(--color-3);
+}
+
+.color-actividades-2 {
+    background-color: var(--color-2);
+}
+
+.color-actividades-3 {
+    background-color: var(--color-4);
+}
+
+.color-actividades-4 {
+    background-color: var(--color-1);
+}
+
+.texto-talleres {
+    font-size: clamp(18px, 3vw, 25px);
+}
+
+.card {
+    background-color: var(--color-1) !important;
+    border-radius: 25px !important;
+    border: 2px solid black !important;
+    box-shadow: -5px 5px 0px var(--color-2);
+}
+
+.card img {
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+h4 {
+    font-weight: 600 !important;
+    color: white !important;
+    font-size: 28px !important;
+}
+
+.card-text {
+    color: white !important;
+    margin-top: 20px;
+}
+
+.boton-talleres {
+    text-align: center !important;
+    background-color: var(--color-1) !important;
+    border-radius: 50px !important;
+    font-weight: 700 !important;
+    font-size: clamp(20px, 5vw, 35px);
+    -webkit-text-stroke: 1px black;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    box-shadow: -5px 5px 0px var(--color-2);
+    transition: 0.3s ease;
+}
+
+.boton-talleres:hover {
+    background-color: #6a4bb2 !important;
+    transform: translate(-5px, 5px);
+    box-shadow: 0px 0px 0px var(--color-2);
+    cursor: pointer;
+}
+
+.card-beneficios {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 3px solid #FFD700;
+    border-radius: 16px;
+    background-color: var(--color-5) !important;
+    min-height: 500px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -5px 5px 0px var(--color-2) !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-icon {
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.card-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    background-color: var(--color-2);
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.card-beneficios .card-body {
+    margin-top: 1rem;
+    padding: 0 1rem 1rem;
+}
+
+.titulo-beneficios {
+    color: black !important;
+    font-size: 1.5rem !important;
+}
+
+.card-beneficios p {
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 991px) {
+    #mobileCardCarousel .carousel-control-prev {
+        left: -30px;
+    }
+
+    #mobileCardCarousel .carousel-control-next {
+        right: -30px;
+    }
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+}
+
+.logos {
+    max-width: 200px;
+    height: auto;
+    margin: 100px 40px;
+}
+
+.slider-camino {
+    display: flex;
+    gap: 1rem;
+    animation: loop 25s linear infinite;
+}
+
+@keyframes loop {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.sub-sponsors {
+    font-size: 1.5rem !important;
+    margin-top: 30px;
+}
+
+.formulario {
+    background-color: var(--color-1);
+    box-shadow: -10px 10px 0px var(--color-2) !important;
+    border: 2px solid black;
+    padding: 0 20px;
+}
+
+.titulo-inscripcion {
+    font-size: clamp(35px, 5vw, 45px);
+    font-weight: 700;
+    -webkit-text-stroke: 1.5px black;
+    margin-top: 20px;
+}
+
+.form-control {
+    border-radius: 40px !important;
+    border: 2px solid black !important;
+    height: clamp(3rem, 8vw, 5rem);
+    font-size: larger !important;
+    background-color: var(--color-5) !important;
+}
+
+.form-texto {
+    border-radius: 40px;
+    border: 2px solid black;
+    height: clamp(5rem, 9vw, 15rem) ; 
+    font-size: larger ;
+    width: 100%;
+    background-color: var(--color-5);
+    padding: 20px;
+}
+
+.item-boton {
+    border-radius: 40px !important;
+    border: 2px solid black !important;
+    height: clamp(3rem, 8vw, 5rem);
+    width: 100%;
+    font-size: clamp(24px, 5vw, 30px);
+    font-weight: 600;
+    background-color: var(--color-2) !important;
+}
+
+.pie-pagina {
+    background-color: #141414;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li {
+    margin-bottom: 20px;
+    list-style: none;
+}
+.icono-footer {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  background-color: var(--color-5);
+  color: #141414;
+  border-radius: 50%;
+  margin: 5px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.row {
+    margin-left: 0px !important;
+}
+
+.container, section, .row {
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.fondo-grid {
+  background-image: 
+    linear-gradient(0deg, rgba(255,255,255,0.1) 2px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.1) 2px, transparent 1px);
+  background-size: 94px 94px;
+    color: #fff;
+  padding: 80px 0;
+}
+
+@media (max-width: 992px) {
+  .fondo-grid {
+    background-image: none;
+  }
+}
