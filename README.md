@@ -16,7 +16,7 @@ El sitio fue diseñado como proyecto académico para la materia **Tecnología De
 
 ## Archivos del Proyecto
 
-├── index.html ├── css/ │   └── style.css └── img/ └── Imágenes en formato WebP
+├── index.html ├── css/ │   └── style.css └── img/ └── Imágenes en formato WebP │ README.md
 
 
 Para visualizar el sitio, descargá todos los archivos y abrí `index.html` en tu navegador. O ingresa a https://micaelamartinez4.github.io/CINEARG-FESTIVAL/
